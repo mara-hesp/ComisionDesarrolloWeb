@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: .80em;
+    color: rgb(58, 58, 58);
+}
+
+section {
+margin-bottom: 80px;
+}
+
+.contenido {
+    padding: 80px 100px 0px 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgb(140, 60, 150);
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.herobox {
+    background-image: url("https://images.pexels.com/photos/562984/pexels-photo-562984.jpeg");
+    background-size: cover;
+    padding: 150px 120px 150px 120px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.herobox h1 {
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.servicios .cardservicios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicios img {
+    width: 30%;
+}
+
+.servicios p {
+    text-align: center;
+}
+
+.cardservicios {
+    margin-top: 30px;
+}
+
+.tendencias {
+    display: flex;
+    background-color: rgb(237, 237, 237);
+    padding: 30px;
+}
+
+.textotrends {
+    width: 40%;
+    padding: 30px;
+}
+
+.textotrends h2 {
+text-align: left;
+}
+
+.imgstrends {
+    width: 60%;
+}
+
+.imgstrends img {
+    width: 30%;
+}
+
+.marcas img {
+    width: 15%;
+    margin: 15px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer {
+    padding: 80px 120px 50px 120px;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: rgb(58, 58, 58);    
+}
+
+footer a:hover {
+    color: rgb(140, 60, 150);    
+}
+
+.social img {
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(140, 60, 150);
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: .8em;
+}
+
+.categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237);
+    width: 20%;
+    margin: 15px;
+}
+
+.card p {
+    margin: 20px;
+    text-align: center;
+}
+
+.espacios {
+    display: flex;
+    justify-content: space-around;
+}
+
+.espacios h2 {
+    text-align: left;
+}
+
+.espacioscollage img {
+    width: 30%;
+}
+
+.espacioscontent {
+    width: 50%;
+}
+
+.contacto input {
+    margin-bottom: 15px;
+    border: none;
+    width: 100%;
+    height: 1.5em;
+    background-color: rgb(237, 237, 237);
+}
+
+textarea {
+    border: none;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+}
+
+.contacto {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+iframe {
+    margin: 0px 15px;
+}
+
+.soluciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.solucionescard {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(237, 237, 237);
+    width: 30%;
+    margin: 15px;
+}
+
+.soluciones p {
+    padding: 20px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: center;
+}
+
+.proyectoscard {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(58, 58, 58);
+    margin: 0px 3px;
+    height: 500px;
+}
+
+.proyectos p {
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+
+.cta {
+    background-image: url("https://images.pexels.com/photos/562984/pexels-photo-562984.jpeg");
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0px;
+}
+
+.nosotros {
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+}
+
+.nosotros h1 {
+text-align: left;
+}
+
+.nosotros div {
+padding: 0px 20px;
+}
+
+hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nosotros img {
+    width: auto;
+}
+
+.equipo {
+    padding: 0px 100px 80px 100px;
+}
+
+.equipocard {
+    display: flex;
+    justify-content: space-around;
+margin-top: 50px;
+}
+
+.equipoimg {
+    height: 250px;
+    background-color: rgb(210, 161, 216);
+}
+
+.equipo img {
+    height: 10px;
+    margin-right: 15px;
+}
+
+.equipo h3 {
+margin: 10px 0px;
+}
