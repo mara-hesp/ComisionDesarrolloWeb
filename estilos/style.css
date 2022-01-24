@@ -21,23 +21,46 @@ a {
     text-decoration: none;
 }
 
-nav {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: rgb(140, 60, 150);
-}
-
-nav a {
+.banner {
+    background: linear-gradient(90deg, rgba(255,201,4,1) 0%, rgba(197,20,139,1) 50%, rgba(48,48,145,1) 100%);
     color: white;
+    font-size: 1.1em;
+    padding: 1em 0em;
+    text-align: center;
 }
 
-nav a:hover {
-    font-weight: 600;
+.banner p {
+    margin-bottom: 0px;
 }
 
-nav ul {
-    display: flex;
-    justify-content: space-around;
+.navbar-light .navbar-brand {
+    color: #8c3c96;
+}
+
+.navbar-light .navbar-brand:hover {
+    animation-name: logo;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes logo {
+    from {
+        color: rgba(197,20,139,1);
+    }
+    50% {
+        color: rgba(255,201,4,1);
+    }
+    to {
+        color: rgba(48,48,145,1);
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #8c3c96;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(255,201,4,1);
 }
 
 .herobox {
