@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: .80em;
+    color: $darkgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ol, ul {
+    padding: 0px;
+}
+
+button {
+    background-color: $morado;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: $hovmorado;
+    border-color: $morado;
+}
+
+textarea {
+    border: none;
+    width: 100%;
+    background-color: $lightgrey;
+}
+
+header {
+    .banner {
+        background: linear-gradient(90deg, $amarillo 0%, $morado 50%, $azul 100%);
+        color: white;
+        font-size: 1.1em;
+        padding: 1em;
+        text-align: center;
+        p {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.navbar-light {
+        .navbar-brand {
+        color: $morado;
+        }
+        .navbar-brand:hover {
+            animation-name: logo;
+            animation-iteration-count: infinite;
+            animation-duration: 3s;
+        }
+        .navbar-nav {
+            .nav-link {
+            color: $morado;
+            }
+            .nav-link:hover {
+                color: $amarillo;
+            }
+        }
+    }
+    ul {
+        li {
+        list-style-type: none;
+        }
+    }
+
+    .contenido {
+        padding-top: 60px;
+    }
+
+    section {
+        margin-bottom: 60px;
+        }
+
+footer {
+    ul {
+        li {
+        list-style-type: none;
+        }
+    }
+    a {
+        color: $morado;
+    }
+    a:hover {
+        color: $darkgrey;
+    }
+    .social {
+        width: 15px;
+        img {
+            height: 15px;
+            margin-bottom: 10px;
+        }
+        img:hover {
+            height: 16px;
+        }
+    }
+}    
