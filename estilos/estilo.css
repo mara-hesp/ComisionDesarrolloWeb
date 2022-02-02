@@ -206,7 +206,7 @@ footer .social img:hover {
 
 @-webkit-keyframes logo {
   from {
-    color: #c5148b;
+    color: #8c3c96;
   }
   50% {
     color: #ffc904;
@@ -218,7 +218,7 @@ footer .social img:hover {
 
 @keyframes logo {
   from {
-    color: #c5148b;
+    color: #8c3c96;
   }
   50% {
     color: #ffc904;
@@ -395,7 +395,7 @@ footer .social img:hover {
   }
 }
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 769px) and (orientation: landscape) {
   .cardservicios {
     margin-top: 30px;
     display: -ms-grid;
