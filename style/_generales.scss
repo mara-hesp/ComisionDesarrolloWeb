@@ -13,14 +13,17 @@ a {
     text-decoration: none;
 }
 
-h1 {
+@mixin titulos {
     margin-bottom: 20px;
     text-align: center;
 }
 
+h1 {
+    @include titulos;
+}
+
 h2 {
-    margin-bottom: 20px;
-    text-align: center;
+    @include titulos;
 }
 
 p {
@@ -31,13 +34,22 @@ ol, ul {
     padding: 0px;
 }
 
-button {
+.button {
     background-color: $morado;
-    padding: 5px 10px;
     border: none;
     color: white;
     margin-top: 15px;
     font-size: 1em;
+}
+
+.button-foot {
+    @extend .button;
+    padding: 5px 10px;
+}
+
+.button-cont {
+    @extend .button;
+    padding: 5px 15px;
 }
 
 button:hover {

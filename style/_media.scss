@@ -8,6 +8,16 @@
         margin-bottom: 60px;
         }
 
+        .herobox {
+            background-image: url("https://images.pexels.com/photos/562984/pexels-photo-562984.jpeg");
+            background-size: cover;
+            padding: 150px 120px 150px 120px;
+            color: white;
+            h1 {
+                text-align: left;
+            }
+        }
+
     .cardservicios {
         margin-top: 30px;
         display: grid;
@@ -160,7 +170,15 @@
 
 @media only screen and (max-width: 769px) and (orientation:landscape) {
 
-
+    .herobox {
+        background-image: url("https://images.pexels.com/photos/562984/pexels-photo-562984.jpeg");
+        background-size: cover;
+        padding: 100px 120px 100px 120px;
+        color: white;
+        h1 {
+            text-align: left;
+        }
+    }
 
     .cardservicios {
         margin-top: 30px;
@@ -317,6 +335,16 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+    .herobox {
+        background-image: url("https://images.pexels.com/photos/562984/pexels-photo-562984.jpeg");
+        background-size: cover;
+        padding: 50px 50px 50px 50px;
+        color: white;
+        h1 {
+            text-align: left;
+        }
+    }
 
     .contenido {
         padding-top: 40px;
