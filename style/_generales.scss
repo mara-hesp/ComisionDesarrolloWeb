@@ -109,6 +109,15 @@ header {
         }
 
 footer {
+    .logofooter {
+        color: $morado;
+        font-size: 1.7em;
+    }
+    .logofooter:hover {
+        animation-name: logo;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+    }
     ul {
         li {
         list-style-type: none;
