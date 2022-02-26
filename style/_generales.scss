@@ -5,7 +5,7 @@
 
 body {
     font-family: sans-serif;
-    font-size: .80em;
+    font-size: 1em;
     color: $darkgrey;
 }
 
@@ -16,6 +16,8 @@ a {
 @mixin titulos {
     margin-bottom: 20px;
     text-align: center;
+    font-weight: 600;
+    color: $morado;
 }
 
 h1 {
@@ -100,15 +102,25 @@ header {
         }
     }
 
-    .contenido {
-        padding-top: 60px;
-    }
+.herobox img {
+    width: 100%;
+    height: auto;
+}
 
-    section {
-        margin-bottom: 60px;
-        }
+.contenido {
+    padding-top: 60px;
+}
+
+.categorias .card:hover {
+    background-color: $hovlightgrey;
+}
+
+.solucionescard:hover {
+    background-color: $hovlightgrey;
+}
 
 footer {
+    font-size: 0.8em;
     .logofooter {
         color: $morado;
         font-size: 1.7em;
